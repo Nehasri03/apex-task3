@@ -1,0 +1,75 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>My Restaurant</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+      <img class="card-img-top" src="holder.js/100px180/" alt="">
+      <div class="card-body">
+        
+      </div>
+    </div>
+<header>  
+        <h1>Welcome to My Restaurant</h1>  
+        <nav>  
+            <ul>  
+                <li><a href="#menu">Menu</a></li>  
+                <li><a href="#quiz">Quiz</a></li>  
+                <li><a href="#carousel">Gallery</a></li>  
+                <li><a href="#reservations">Reservations</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+
+    <section id="menu">  
+        <h2>Menu</h2>  
+        <p>Check out our delicious offerings!</p>  
+        <img src="menu.jpg" alt="menu">
+        <!-- Add menu items here -->  
+    </section>  
+
+    <section id="quiz">  
+        <h2>Interactive Quiz</h2>  
+        <div id="quiz-container"></div>  
+        <button id="quiz-button">Start Quiz</button>  
+    </section>  
+
+    <section id="carousel">  
+        <h2>Image Gallery</h2>  
+        <div class="carousel">  
+            <img id="carousel-image" src="https://tse4.mm.bing.net/th?id=OIP.QD-OWx9DBu_Reu4ECijZBQHaE8&pid=Api&P=0&h=180" alt="Restaurant Image"> 
+            <button id="prev">Previous</button>  
+            <button id="next">Next</button>  
+        </div>  
+    </section>  
+
+    <section id="booking">  
+        <h2>Reservation Form</h2>  
+        <form id="reservation-form">  
+            <label for="name">Name:</label>  
+            <input type="text" id="name" required>  
+            
+            <label for="date">Date:</label>  
+            <input type="date" id="date" required>  
+            
+            <label for="time">Time:</label>  
+            <input type="time" id="time" required>  
+            
+            <label for="guests">Number of Guests:</label>  
+            <input type="number" id="guests" min="1" required>  
+            
+            <button type="submit">Book Table</button>  
+        </form>  
+        <div id="confirmation" class="hidden"></div>  
+    </section> 
+
+    <footer>  
+        <p>&copy; 2024 My Restaurant</p>  
+    </footer>  
+
+    <script src="script.js"></script>  
+</body>  
+</html>

@@ -1,0 +1,92 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}
+
+header {  
+   
+    color: orange;  
+    padding: 1rem;  
+    text-align: center;  
+    background-color: bisque;
+}  
+ 
+
+nav ul {  
+    list-style-type: none;  
+}  
+
+nav li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+section {  
+    padding: 20px;  
+}  
+
+.carousel {  
+    display: flex;  
+    align-items: center;  
+}  
+
+img {  
+    width: 300px; /* Responsive size */  
+    height: auto;  
+}  
+
+@media (max-width: 768px) {  
+    img {  
+        width: 100%; /* Adjust for mobile */  
+    }  
+}
+
+
+
+
+
+section {  
+    background: white;  
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}  
+
+label {  
+    display: block;  
+    margin: 10px 0 5px;  
+}  
+
+input[type="text"],  
+input[type="date"],  
+input[type="time"],  
+input[type="number"] {  
+    width: 100%;  
+    padding: 8px;  
+    margin-bottom: 10px;  
+}  
+
+button {  
+    background-color: #5cb85c;  
+    color: white;  
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+button:hover {  
+    background-color: #4cae4c;  
+}  
+
+.hidden {  
+    display: none;  
+}  
+
+#confirmation {  
+    margin-top: 20px;  
+    padding: 10px;  
+    border: 1px solid #5cb85c;  
+    background-color: #dff0d8;  
+}  
